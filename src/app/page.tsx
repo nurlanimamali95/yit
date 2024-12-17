@@ -1,7 +1,15 @@
+import About from "@/components/about";
+import HeroCarousel from "@/components/hero";
+import Navbar from "@/components/navbar";
+import Info from "@/components/info";
+
 export default function Home() {
 	return (
-		<div className="flex justify-center items-center h-screen font-bold text-[7rem] text-primary">
-			Youth Inclusive Theatre
-		</div>
+		<main>
+			<Navbar />
+			<HeroCarousel />
+			<About />
+			<Info />
+		</main>
 	);
 }
