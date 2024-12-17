@@ -46,37 +46,37 @@ export default function Navbar() {
 			<ul
 				className={`${
 					isOpen ? "block" : "hidden"
-				} md:flex md:flex-row md:items-center gap-6 absolute md:relative top-[50px] md:top-0 left-0 w-full md:w-auto bg-primary md:bg-transparent text-white text-center md:text-left transition-all duration-300`}
+				} md:flex md:flex-row md:items-center gap-6 absolute md:relative top-[50px] md:top-0 left-0 w-full md:w-auto bg-primary md:bg-transparent text-center md:text-left transition-all duration-300 font-medium`}
 			>
-				<li>
-					<Link href="/" className="block py-2 md:py-0 hover:text-gray-300">
+				<li className="text-dark">
+					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
 						2025 Projects
 					</Link>
 				</li>
-				<li>
-					<Link href="/" className="block py-2 md:py-0 hover:text-gray-300">
+				<li className="text-dark">
+					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
 						Theatre Plays
 					</Link>
 				</li>
-				<li>
-					<Link href="/" className="block py-2 md:py-0 hover:text-gray-300">
+				<li className="text-dark">
+					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
 						English Through Drama
 					</Link>
 				</li>
-				<li>
-					<Link href="/" className="block py-2 md:py-0 hover:text-gray-300">
+				<li className="text-dark">
+					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
 						GCC
 					</Link>
 				</li>
-				<li>
-					<Link href="/" className="block py-2 md:py-0 hover:text-gray-300">
+				<li className="text-dark">
+					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
 						Feedback
 					</Link>
 				</li>
 				<li>
 					<Link
 						href="/"
-						className="block bg-green-300 hover:bg-green-400 px-4 py-2 rounded-md text-dark md:inline-block"
+						className="block lg:bg-green-300 hover:bg-green-400 px-4 py-2 rounded-md text-dark md:inline-block"
 					>
 						Donate
 					</Link>

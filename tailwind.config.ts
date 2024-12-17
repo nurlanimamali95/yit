@@ -12,7 +12,7 @@ export default {
 				primary: "#FFC544",
 				secondary: "#B3E6FF",
 				accent: "#B2FFB2",
-				dark: "#555555",
+				dark: "#000000",
 				white: "#FFFFFF",
 			},
 			backgroundImage: {
