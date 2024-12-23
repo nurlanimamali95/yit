@@ -1,10 +1,29 @@
 "use client";
-import { useState } from "react";
+
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Logo from "@/components/logo";
 import Link from "next/link";
+import clsx from "clsx";
 
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
+	const pathname = usePathname(); // Get the current route
+
+	// Close the menu whenever the pathname changes
+	useEffect(() => {
+		setIsOpen(false);
+	}, [pathname]);
+
+	// Define the navigation links
+	const navLinks = [
+		{ name: "2025 Projects", href: "/2025projects" },
+		{ name: "Theatre Plays", href: "/plays" },
+		{ name: "English Through Drama", href: "/etd" },
+		{ name: "GCC", href: "/gcc" },
+		{ name: "Feedback", href: "/feedback" },
+		{ name: "Donate", href: "/donate", isButton: true },
+	];
 
 	return (
 		<nav
@@ -13,6 +32,7 @@ export default function Navbar() {
 			aria-label="Main Navigation"
 		>
 			<Logo />
+
 			<button
 				className="md:hidden text-white focus:outline-none"
 				onClick={() => setIsOpen(!isOpen)}
@@ -44,43 +64,27 @@ export default function Navbar() {
 			</button>
 
 			<ul
-				className={`${
-					isOpen ? "block" : "hidden"
-				} md:flex md:flex-row md:items-center gap-6 absolute md:relative top-[50px] md:top-0 left-0 w-full md:w-auto bg-primary md:bg-transparent text-center md:text-left transition-all duration-300 font-medium`}
+				className={clsx(
+					"absolute md:relative top-[50px] md:top-0 left-0 w-full md:w-auto bg-primary md:bg-transparent text-center md:text-left transition-all duration-300 font-medium",
+					isOpen ? "block" : "hidden",
+					"md:flex md:flex-row md:items-center gap-6"
+				)}
 			>
-				<li className="text-dark">
-					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
-						2025 Projects
-					</Link>
-				</li>
-				<li className="text-dark">
-					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
-						Theatre Plays
-					</Link>
-				</li>
-				<li className="text-dark">
-					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
-						English Through Drama
-					</Link>
-				</li>
-				<li className="text-dark">
-					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
-						GCC
-					</Link>
-				</li>
-				<li className="text-dark">
-					<Link href="/" className="block py-2 md:py-0 hover:bg-green-400">
-						Feedback
-					</Link>
-				</li>
-				<li>
-					<Link
-						href="/"
-						className="block lg:bg-green-300 hover:bg-green-400 px-4 py-2 rounded-md text-dark md:inline-block"
-					>
-						Donate
-					</Link>
-				</li>
+				{navLinks.map((link) => (
+					<li key={link.href} className="text-dark">
+						<Link
+							href={link.href}
+							className={clsx(
+								"block py-2 md:py-1 px-4 rounded-md",
+								pathname === link.href && "bg-green-500 text-white ",
+								!link.isButton && "lg:hover:bg-green-400 text-dark ",
+								link.isButton && "lg:bg-green-300 lg:hover:bg-green-400 rounded-md"
+							)}
+						>
+							{link.name}
+						</Link>
+					</li>
+				))}
 			</ul>
 		</nav>
 	);

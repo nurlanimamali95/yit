@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import Navbar from "@/components/navbar"; // Import Navbar
+import Footer from "@/components/footer"; // Import Footer
 import "./globals.css";
+import PageTransition from "@/utils/pageTransition";
 
 const poppins = Poppins({
 	variable: "--font-poppins",
@@ -21,7 +24,16 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${poppins.variable} antialiased`}>{children}</body>
+			<body
+				className={`${poppins.variable} antialiased bg-gray-100 flex flex-col min-h-screen`}
+			>
+				<Navbar />
+				<main className="flex-grow mt-[3.6rem]">
+					<PageTransition>{children}</PageTransition>
+				</main>
+
+				<Footer />
+			</body>
 		</html>
 	);
 }

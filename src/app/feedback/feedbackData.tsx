@@ -1,0 +1,88 @@
+const feedbackData = [
+	{
+		id: 1,
+		text: "The program has fostered a sense of belonging and mutual respect among all participants.",
+		name: "Alex Johnson",
+		photo: "/feedbacks/user1.jpg",
+		bgColor: "bg-secondary",
+	},
+	{
+		id: 2,
+		text: "Seeing my child shine on stage with confidence brought tears to my eyes. A truly transformative experience!",
+		name: "Emily Davis",
+		photo: "/feedbacks/user2.jpg",
+		bgColor: "bg-primary",
+	},
+	{
+		id: 3,
+		text: "This initiative bridges gaps beautifully, creating a harmonious space for children from diverse backgrounds.",
+		name: "Liam Smith",
+		photo: "/feedbacks/user3.jpg",
+		bgColor: "bg-accent",
+	},
+	{
+		id: 4,
+		text: "A wonderful blend of creativity and collaboration that has enriched my child’s skills and social awareness.",
+		name: "Sophia Martinez",
+		photo: "/feedbacks/user4.jpg",
+		bgColor: "bg-white",
+	},
+	{
+		id: 5,
+		text: "The focus on inclusivity and teamwork is truly inspiring. My child has gained so much from this program.",
+		name: "Noah Brown",
+		photo: "/feedbacks/user5.jpg",
+		bgColor: "bg-secondary",
+	},
+	{
+		id: 6,
+		text: "Witnessing the children support and uplift each other has been a heartwarming experience. Thank you!",
+		name: "Olivia Wilson",
+		photo: "/feedbacks/user1.jpg",
+		bgColor: "bg-primary",
+	},
+	{
+		id: 7,
+		text: "The environment created by this program is so welcoming. My child feels truly included and valued.",
+		name: "Ethan Taylor",
+		photo: "/feedbacks/user2.jpg",
+		bgColor: "bg-accent",
+	},
+	{
+		id: 8,
+		text: "This has been a transformative experience not only for my child but for our entire family. Highly recommend it!",
+		name: "Sophia Carter",
+		photo: "/feedbacks/user3.jpg",
+		bgColor: "bg-white",
+	},
+	{
+		id: 9,
+		text: "A beautiful initiative that fosters creativity, collaboration, and mutual respect among children.",
+		name: "Aiden Walker",
+		photo: "/feedbacks/user4.jpg",
+		bgColor: "bg-secondary",
+	},
+	{
+		id: 10,
+		text: "Thank you for creating such a thoughtful and inclusive space for our children to grow and shine.",
+		name: "Isabella Harris",
+		photo: "/feedbacks/user5.jpg",
+		bgColor: "bg-primary",
+	},
+	{
+		id: 11,
+		text: "I am amazed at how much confidence my child has gained through this program. Truly remarkable!",
+		name: "James White",
+		photo: "/feedbacks/user1.jpg",
+		bgColor: "bg-accent",
+	},
+	{
+		id: 12,
+		text: "The lessons my child has learned here will stay with them for life. Thank you for this amazing program!",
+		name: "Mia Lewis",
+		photo: "/feedbacks/user2.jpg",
+		bgColor: "bg-white",
+	},
+];
+
+export default feedbackData;
