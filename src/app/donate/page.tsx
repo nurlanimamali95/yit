@@ -47,7 +47,7 @@ export default function Donate() {
 					<div>
 						<h4 className="text-lg font-medium">1. Pay via PayPal</h4>
 						<p>Click the button below to donate via PayPal:</p>
-						<button className="mt-2 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
+						<button className="mt-2 bg-green-400 hover:bg-green-500 text-white font-medium py-2 px-4 rounded">
 							Donate via PayPal
 						</button>
 					</div>
