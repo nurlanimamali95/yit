@@ -31,7 +31,7 @@ export default function Donate() {
 							<AccordionTrigger className="text-lg font-medium">
 								{pkg.title}
 							</AccordionTrigger>
-							<AccordionContent className="text-sm text-gray-700">
+							<AccordionContent className="text-sm">
 								<p>{pkg.description}</p>
 							</AccordionContent>
 						</AccordionItem>
@@ -43,7 +43,7 @@ export default function Donate() {
 				<h3 className="text-xl font-semibold mb-4 text-center">
 					How to Donate
 				</h3>
-				<div className="space-y-6 text-gray-700">
+				<div className="space-y-6">
 					<div>
 						<h4 className="text-lg font-medium">1. Pay via PayPal</h4>
 						<p>Click the button below to donate via PayPal:</p>

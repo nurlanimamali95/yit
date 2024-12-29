@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { projectCard } from "@/app/2025projects/projectCardData";
+import { etdCard } from "@/app/etd/etdCardData";
 import Card from "@/components/card";
 
-export default function Projects() {
+export default function Etd() {
 	const [showAll, setShowAll] = useState(false);
 
-	const visibleCards = showAll ? projectCard : projectCard.slice(0, 6);
+	const visibleCards = showAll ? etdCard : etdCard.slice(0, 6);
 
 	return (
 		<div className="flex flex-col items-center">
@@ -27,7 +27,6 @@ export default function Projects() {
 						<Card
 							key={card.id}
 							images={card.images}
-							location={card.location}
 							description={card.description}
 							buttonColor={card.buttonColor}
 							details={card.details}
@@ -35,7 +34,7 @@ export default function Projects() {
 					))}
 				</div>
 
-				{!showAll && projectCard.length > 6 && (
+				{!showAll && etdCard.length > 6 && (
 					<div className="flex justify-center my-8">
 						<button
 							onClick={() => setShowAll(true)}

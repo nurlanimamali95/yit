@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { projectCard } from "@/app/2025projects/projectCardData";
+import { playsCard } from "@/app/plays/playsCardData";
 import Card from "@/components/card";
 
 export default function Projects() {
 	const [showAll, setShowAll] = useState(false);
 
-	const visibleCards = showAll ? projectCard : projectCard.slice(0, 6);
+	const visibleCards = showAll ? playsCard : playsCard.slice(0, 6);
 
 	return (
 		<div className="flex flex-col items-center">
@@ -15,10 +15,12 @@ export default function Projects() {
 				Theatre Plays
 			</h2>
 			<p className="my-16 text-lg leading-relaxed max-w-[70%]">
-				I staged over 60 plays, from ten minute performances to over 90 minutes
-				of classical plays for 350+ audiences. Sustainability, anti-bullying
-				movement, and “sharing is caring” are among vital topics through plays
-				and classes.
+				Together with a professional team of choreographers, musicians, and
+				stage managers, we staged over 60 plays, from ten-minute chamber
+				performances to over 120-minute classical plays for 300+ audiences.
+				Sustainability, the anti-bullying movement, and “sharing is caring” are
+				among vital topics through plays and classes. The list of plays is
+				endless! The most memorable ones are listed below!!!
 			</p>
 
 			<div className="">
@@ -27,7 +29,7 @@ export default function Projects() {
 						<Card
 							key={card.id}
 							images={card.images}
-							location={card.location}
+							name={card.name}
 							description={card.description}
 							buttonColor={card.buttonColor}
 							details={card.details}
@@ -35,7 +37,7 @@ export default function Projects() {
 					))}
 				</div>
 
-				{!showAll && projectCard.length > 6 && (
+				{!showAll && playsCard.length > 6 && (
 					<div className="flex justify-center my-8">
 						<button
 							onClick={() => setShowAll(true)}

@@ -76,9 +76,11 @@ export default function Navbar() {
 							href={link.href}
 							className={clsx(
 								"block py-2 md:py-1 px-4 rounded-md",
-								pathname === link.href && "bg-green-500 text-white ",
-								!link.isButton && "lg:hover:bg-green-400 text-dark ",
-								link.isButton && "lg:bg-green-300 lg:hover:bg-green-400 rounded-md"
+								pathname === link.href && "bg-white text-dark ",
+								!link.isButton &&
+									"lg:hover:bg-gray-500 text-dark lg:hover:text-white ",
+								link.isButton &&
+									"lg:bg-secondary rounded-md lg:hover:text-white lg:hover:bg-gray-500"
 							)}
 						>
 							{link.name}

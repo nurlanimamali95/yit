@@ -23,7 +23,7 @@ export default function HeroCarousel() {
 			>
 				<div className="relative w-full h-screen overflow-hidden">
 					<Image
-						src="/slide1.jpg"
+						src="/slide1-1.jpg"
 						alt="Slide 1"
 						layout="fill"
 						objectFit="cover"
@@ -49,7 +49,7 @@ export default function HeroCarousel() {
 
 				<div className="relative w-full h-screen overflow-hidden">
 					<Image
-						src="/slide2.jpg"
+						src="/slide2-1.jpg"
 						alt="Slide 2"
 						layout="fill"
 						objectFit="cover"
@@ -73,7 +73,7 @@ export default function HeroCarousel() {
 
 				<div className="relative w-full h-screen overflow-hidden">
 					<Image
-						src="/slide3.jpg"
+						src="/slide3-1.jpg"
 						alt="Slide 3"
 						layout="fill"
 						objectFit="cover"

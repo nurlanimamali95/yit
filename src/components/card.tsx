@@ -9,14 +9,16 @@ import { CustomLeftArrow, CustomRightArrow } from "@/components/arrowButtons";
 
 interface CardProps {
 	images: string[];
-	location: string;
+	name?: string;
+	location?: string | undefined;
 	description: string;
 	buttonColor: string;
-	details: string;
+	details: string | React.JSX.Element;
 }
 
 export default function Card({
 	images,
+	name,
 	location,
 	description,
 	buttonColor,
@@ -63,22 +65,27 @@ export default function Card({
 							<Image
 								src={image}
 								alt={`Slide ${index}`}
-								className="w-full h-80 object-cover"
+								className="w-full h-80 object-contain"
 								width={300}
 								height={500}
 							/>
 						</div>
 					))}
 				</Carousel>
-				<span className="absolute bottom-10 left-0 bg-primary px-1 py-1 text-sm shadow-sm">
-					{location}
-				</span>
+				{name && (
+					<span className="absolute top-0 bg-gray-200 px-2 py-1 text-lg w-full text-center shadow-sm ">
+						{name}
+					</span>
+				)}
+				{location && (
+					<span className="absolute bottom-10 left-0 bg-primary px-1 py-1 text-sm shadow-sm">
+						{location}
+					</span>
+				)}
 			</div>
-
 			<div className="mt-4">
-				<p className="text-gray-700 text-sm">{description}</p>
+				<p className="text-dark font-medium text-base">{description}</p>
 			</div>
-
 			<button
 				onClick={() => setIsModalOpen(true)}
 				className={`mt-4 px-4 py-2 rounded ${buttonColor} hover:opacity-90`}
@@ -108,10 +115,10 @@ export default function Card({
 							transition={{ duration: 0.3 }}
 						>
 							<h2 className="text-lg font-bold mb-4">More Details</h2>
-							<p className="text-gray-700 mb-4">{details}</p>
+							<p className="text-dark mb-4">{details}</p>
 							<button
 								onClick={() => setIsModalOpen(false)}
-								className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:opacity-90"
+								className="mt-4 px-4 py-2 bg-orange-400 text-white rounded hover:opacity-90"
 							>
 								Close
 							</button>

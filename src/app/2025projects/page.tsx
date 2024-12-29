@@ -35,7 +35,10 @@ export default function Projects() {
 						/>
 					))}
 				</div>
-
+				<p className="my-10 text-sm">
+					*Open to any proposals for 2-4 month theater projects for 2026.
+					Honorarium is negotiable.
+				</p>
 				{!showAll && projectCard.length > 6 && (
 					<div className="flex justify-center my-8">
 						<button

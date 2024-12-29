@@ -16,11 +16,11 @@ export default function Feedback() {
 			const width = window.innerWidth;
 
 			if (width < 768) {
-				setChunkSize(3);
+				setChunkSize(4);
 				setHideArrows(true);
 				setShowDots(true);
 			} else if (width < 1024) {
-				setChunkSize(3);
+				setChunkSize(4);
 				setHideArrows(true);
 				setShowDots(true);
 			} else {
@@ -86,7 +86,7 @@ export default function Feedback() {
 				{feedbackChunks.map((chunk, index) => (
 					<div
 						key={index}
-						className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-5 justify-items-center p-2 sm:p-4 w-fit mx-auto"
+						className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-5 justify-items-center p-2 w-fit mx-auto"
 					>
 						{chunk.map((feedback) => (
 							<div

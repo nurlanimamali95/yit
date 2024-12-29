@@ -27,11 +27,11 @@ export default function TailoredProjects() {
 					}}
 					className="p-6 md:p-8 rounded-xl shadow-lg h-[300px] md:h-[350px] lg:h-[400px] flex flex-col justify-between"
 				>
-					<h3 className="text-xl font-bold mb-4">For Schools:</h3>
+					<h3 className="text-xl font-bold mb-4">For schools:</h3>
 					<p className="leading-relaxed md:text-xl lg:text-2xl">
 						All of my theater projects can be tailor-made to suit your needs! I
-						will focus on every child’s interests and preferences to ensure that
-						each of them has an unforgettable performance arts journey.
+						focus on every child’s interests and preferences to ensure that each
+						of them has an unforgettable performance art journey.
 					</p>
 				</motion.div>
 
@@ -51,9 +51,11 @@ export default function TailoredProjects() {
 						For individuals and families:
 					</h3>
 					<p className="md:text-xl lg:text-2xl leading-relaxed">
-						If you are 6 to 16 years old, welcome to my theater world where art,
+						If you are 6 to 16 years old, welcome to my theatre world where art,
 						drama, culture, technology, and nature converge to create
-						performances and inspire wonder.
+						performances and inspire wonder, where the English language is
+						taught through body and exploration, where theatre is explored
+						through experience and communication.
 					</p>
 				</motion.div>
 			</div>
