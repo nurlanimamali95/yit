@@ -11,11 +11,11 @@ export default function Etd() {
 
 	return (
 		<div className="flex flex-col items-center">
-			<h2 className="mt-[6rem] text-3xl sm:text-2xl font-semibold">
+			<h2 className="mt-[8rem] text-3xl sm:text-2xl font-semibold">
 				English Through Drama
 			</h2>
-			<p className="my-16 text-lg leading-relaxed max-w-[70%]">
-				I staged over 60 plays, from ten minute performances to over 90 minutes
+			<p className="my-16 text-lg max-w-[70%] text-justify">
+				I staged over 100 plays, from ten minute performances to over 90 minutes
 				of classical plays for 350+ audiences. Sustainability, anti-bullying
 				movement, and “sharing is caring” are among vital topics through plays
 				and classes.

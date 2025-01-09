@@ -6,17 +6,17 @@ export const projectCard = [
 			"/2025/sweden/image2.webp",
 			"/2025/sweden/image3.webp",
 		],
-		location: "Stockholm, Sweden. 04.01.2025 ",
+		location: "Stockholm, Sweden. 03-04.01.2025 ",
 		description:
-			" Sweden’s oldest theatre  Confidencen in rococo style, with a  Hagaparken garden  you can not pass by, a royal palace, Uriksdal palace, a cinema spot with so much history inside the walls, and so much more are on the must-list places during “ Magics of Solna” trip.",
+			" Solna is a city of Stockholm, an ancient settlement with runic stones and several burial sites dating from the time of the Vikings",
 		buttonColor: "bg-primary",
 		details: (
 			<>
 				<span>
 					Join us with the exploration of one of the most fascinating districts
-					of Stockholm - Solna. We will explore Filmstaden, Sweden’s Hollywood
+					of Stockholm- Solna. We will explore Filmstaden, Sweden’s Hollywood
 					from 1920 to the beginning of the 1970s. For more than half a century,
-					this was the place where over 400 films were made.Our other stop will
+					this was the place where over 400 films were made. Our other stop will
 					be the theatre in the park of Ulriksdal Palace in Solna, which was
 					built in the 1750s, the oldest Rococo theatre in Sweden. The Ulriksdal
 					Palace, which was originally called Jakobsdal for its owner Jacob De
@@ -36,27 +36,21 @@ export const projectCard = [
 	},
 	{
 		id: 2,
-		images: [
-			"/2025/baku-ganja/image1.jpg",
-			"/2025/baku-ganja/image2.jpg",
-			"/2025/baku-ganja/image3.webp",
-		],
-		location: "Baku-Gyanja, Azerbaijan. 25-26.01.2025",
+		images: ["/2025/casting/image1.jpg", "/2025/casting/image2.jpg"],
+		location: "Baku, Azerbaijan. 11.01.2025",
 		description:
-			"“Be Creative Tour” from Baku to Ganja! You never knew this before!!!",
+			"Audition, Audition, Auditon! Unleash your kid’s talent!  A casting call l  for  “Trolls’’ or “ Little Shop of Horrors”  awaits you!",
 		buttonColor: "bg-primary",
 		details: (
 			<>
 				<span>
-					The exploration of the cultural capital of Azerbaijan from a different
-					perspective! Did you know that the Azerbaijani Drama Theatre in Gyanja
-					is a former flour mill or that the Gyanja Puppet Theatre was built by
-					Germans? More than 100 German families lived in the XIX century in
-					Elizavetpol ( Gyanja). Aleksandr Nevskiy church in Gyanja, built in
-					1887, was allocated for charitable means both by Muslims and
-					Christians! We’ll dive into the world of art, theatre, traditional
-					food, and so much more!!! A group of children ( 8-15 yo) with parents
-					up to 20 people.
+					Join our educational theatre project which is happening annually from
+					January to March in Baku, Azerbaijan. It is 50+ hours in theatre arts,
+					including choreography and vocal classes, along with work on stage
+					voice, mime,and body language. The cost of a casting call is 15 azn
+					The entire project usually costs 350-450 azn depending on the role.
+					Rehearsals are on Tuesdays and Fridays The performance and School
+					Tours are between March 15th-19th.
 				</span>
 			</>
 		),
@@ -101,10 +95,13 @@ export const projectCard = [
 	},
 	{
 		id: 5,
-		images: ["/2025/baku-azerbaijan/image2.jpg"],
+		images: [
+			"/2025/baku-azerbaijan/image1.jfif",
+			"/2025/baku-azerbaijan/image2.webp",
+		],
 		location: "Baku, Azerbaijan. 15-16.03.2025",
 		description:
-			" You are invited!  YIT theatre students will be acting, dancing, singing, and  sharing so much love with you! “Trolls” for younger auditorium ( 4-14) and “ Little Shop of Horrors” for older ones ( 10+).",
+			" Come and enjoy YIT residents’s acting, singing, and dancing!  Join our  theatre weekend this March!",
 		buttonColor: "bg-primary",
 		details:
 			"For over 50 hours YIT residents have been exploring the world of theatre arts, performance, along with preparation for the Premiere of “ Trolls”, March 15th, 6pm, and “Little Shop of Horrors”, March 16th, 6pm.",
@@ -117,7 +114,8 @@ export const projectCard = [
 			"/2025/baku-tbilisi/image3.jpg",
 		],
 		location: "Baku- Tbilisi. 26-29.03.2025",
-		description: "The “Be Creative” Tour is back!",
+		description:
+			"The “Be Creative” Tour is back! We are going to Tbilisi! A city of crafts shops, very different theatres and museums",
 		buttonColor: "bg-primary",
 		details: (
 			<>
@@ -167,7 +165,8 @@ export const projectCard = [
 			"/2025/europe/image3.jpg",
 		],
 		location: "Europe. 05.05.2025-25.05.2025",
-		description: "“Cultural Heritage Sites” tour.",
+		description:
+			" “Cultural Heritage Sites” tour. A three-week exploration of 15 coutries for English Through Drama projects",
 		buttonColor: "bg-primary",
 		details:
 			"A self-funded “South to North Cultural Heritage” tour aimed to gather content that will further be included in the “English Through Drama” books and board games. The tour includes an exploration of museums, theatres, and cultural sites in Turkey, Greece, Albania, Montenegro, Bosnia Herzegovina, Croatia, Italy, Switzerland, France, Belgium, Netherlands, Germany, Lithuania and Latvia. The books and board games will be published in English, Latvian, and Azerbaijani languages.",
@@ -194,11 +193,10 @@ export const projectCard = [
 			"/2025/baku-riga/image3.jpg",
 		],
 		location: "Baku-Riga. 08-14.07.2025",
-		description:
-			" A one week tour for a parent & child  to a fairytale land and it’s capital - Riga. The tour is custom made exclusively for children in love with unique museums, hidden theatres, or yummy workshops.",
+		description: "For children in love with creativity",
 		buttonColor: "bg-primary",
 		details:
-			"Riga is fully packed with cozy creative corners, handmade workshops, private small theatres, and unique museums you have never heard of before…Have you ever been to a museum of darkness? No? Me too, until I initiated my arrangements for the “ Be Creative” tour in Riga. The Museum of Darkness, the World of Hats museum, a visit to a pottery studio, amber shop, creative talks to theatre directors, and so much more await you.",
+			"Riga is fully packed with cozy creative corners, handmade workshops, private small theatres, and unique museums you have never heard of before…Have you ever been to a museum of darkness? No? Me too, until I initiated my arrangements for the “ Be Creative” tour in Riga. The Museum of Darkness, the World of Hats museum, a visit to a pottery studio, amber shop, creative talks to theatre directors, and so much more await you",
 	},
 	{
 		id: 11,
@@ -217,8 +215,9 @@ export const projectCard = [
 	{
 		id: 12,
 		images: [
-			"/2025/baku-azerbaijan/image1.jpg",
-			"/2025/baku-azerbaijan/image2.jpg",
+			"/2025/baku-azerbaijan/baku1.jpg",
+			"/2025/baku-azerbaijan/baku2.jpg",
+			"/2025/baku-azerbaijan/baku3.jpg",
 		],
 		location: "Baku, Azerbaijan. 10.2025",
 		description:
@@ -234,7 +233,7 @@ export const projectCard = [
 			"/2025/chicago/image2.jpg",
 			"/2025/chicago/image3.jpg",
 		],
-		location: "Chicago, Illinois",
+		location: "Chicago, Illinois. 10.2025-12.2025",
 		description:
 			"Self-funded professional development course in theatre directing.  Devonshire playhouse. Skokie, Illinois.",
 		buttonColor: "bg-primary",

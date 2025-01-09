@@ -1,14 +1,10 @@
 export const playsCard = [
 	{
 		id: 1,
-		images: [
-			"/plays/aladdin/image1.jpg",
-			"/projects/image5.jpg",
-			"/projects/image1.jpeg",
-		],
+		images: ["/plays/shakespeare/image1.jpg"],
 		name: "“Shakespeare’s Festival”",
 		description:
-			"Exposure to Shakespeare introduces children to a significant part of literary and cultural heritage. His works are considered timeless classics, and understanding them can provide a solid foundation for appreciating literature.",
+			"Exposure to Shakespeare introduces children to a significant part of literary and cultural heritage. We stage etudes, full-length plays, sonnets, and more!",
 		buttonColor: "bg-primary",
 		details:
 			"Short etudes from “Hamlet”, and “Romeo and Juliet” scenes,  The Merchant of Venice”, talks about Elizabethan theatre, and much more are explored and performed at Shakespeare’s School Festivals between 2003-2013.  The events have been organized annually in April, in Baku- Oxford School and on the Theatre of Young Spectator’s stage.",
@@ -22,7 +18,7 @@ export const playsCard = [
 		],
 		name: "“How the Grinch Stole Christmas”",
 		description:
-			"The Grinch is a solitary creature with a heart “two sizes too small“ who lives on a mountain overlooking Whoville, the home of the Whos. Having been annoyed by Whoville's noisy Christmas festivities for years, the Grinch resolves to stop Christmas from coming…",
+			"The Grinch is a solitary creature with a heart “two sizes too small” that lives on a mountain overlooking Whoville. Having been annoyed by Whoville's noise, the Grinch resolves to stop Christmas from coming…",
 		buttonColor: "bg-primary",
 		details:
 			"Dr Seusses Grinch is a moving story about how loneliness can make you envious and resentful, but kindness and forgiveness can change your life. Grinch was staged three times at Baku- Oxford School between 2010-2018, and at “USL Centre for Psychological Support” for children with special needs in 2019. Can be tailor-made to suit your needs.",
@@ -30,9 +26,9 @@ export const playsCard = [
 	{
 		id: 3,
 		images: [
-			"/projects/image7.jpg",
-			"/projects/image2.jpeg",
-			"/projects/image3.jpeg",
+			"/plays/alice/image1.jpg",
+			"/plays/alice/image2.jpg",
+			"/plays/alice/image3.jpg",
 		],
 		name: "“Alice in Wonderland”",
 		description:
@@ -43,7 +39,11 @@ export const playsCard = [
 	},
 	{
 		id: 4,
-		images: ["/plays/oz/image1.jpg", "/plays/oz/image2.jpg"],
+		images: [
+			"/plays/oz/image3.jpg",
+			"/plays/oz/image1.jpg",
+			"/plays/oz/image2.jpg",
+		],
 		name: "“The Wizard of Oz”",
 		description:
 			"The Wizard of Oz is a 1939 American musical fantasy story about Dorothy and her dog, who find themselves in a strange new world. With the help of new friends, they travel far across the new world for help to get back home.",
@@ -53,27 +53,39 @@ export const playsCard = [
 	},
 	{
 		id: 5,
-		images: ["/projects/sample.png"],
+		images: [
+			"/plays/lion/image1.jpg",
+			"/plays/lion/image2.jpg",
+			"/plays/lion/image3.jpg",
+		],
 		name: "“The Lion King”",
 		description:
-			"Whether your past was good or bad, don't live in the past. Put your past behind you. After Mufasa dies, Simba lives with guilt and regret but he learns from his new friend Pumbaa that he can't change the past and with his friends by his side he looks towards a brighter future.",
+			"Don't live in the past, whether your past was good or bad.  Put your past behind you. After Mufasa dies, Simba lives with guilt and regret, but he learns a lot from his new friends.",
 		buttonColor: "bg-primary",
 		details:
 			"“The Lion King's“ philosophical message is about balance and harmony in the natural world. His transformation is a powerful reminder of the importance of accepting responsibility and embracing one's true identity. Productions in 2007 in Baku- Oxford School, new version in 2018 in a “Fam Tram”. I look forward to this performance again and again! ",
 	},
 	{
 		id: 6,
-		images: ["/projects/sample.png"],
+		images: [
+			"/plays/beauty/image1.jpg",
+			"/plays/beauty/image2.jpg",
+			"/plays/beauty/image3.jpg",
+		],
 		name: "“Beauty and The Beast”",
 		description:
-			" The story of a young woman Belle from a provincial town, and the Beast, who is a prince trapped under the spell of an enchantress. If the Beast can learn to love and be loved, the curse will end and he will be transformed into his former self. But time is running out…",
+			"The story of a young woman Belle from a provincial town, and the Beast, who was a prince trapped under the spell of an enchantress. If the Beast can learn to love and be loved, the curse will end, but time is running out so quickly.",
 		buttonColor: "bg-primary",
 		details:
 			"The story teaches us to value inward characteristics such as kindness over other superficial qualities. Staged in 2006 in Baku- Oxford School, a new version was staged in 2018 in a Fam Tram Theatre. The play is planned to be staged at IB Lyceum in 2026. Can be tailor-made to suit your needs.",
 	},
 	{
 		id: 7,
-		images: ["/projects/sample.png"],
+		images: [
+			"/plays/snowwhite/image1.webp",
+			"/plays/snowwhite/image2.jpg",
+			"/plays/snowwhite/image3.webp",
+		],
 		name: "“The Snowwhite and the Little Dwarfs”",
 		description:
 			" Snow White, is a sweet and innocent young princess who is forced to hide from her stepmother in the cottage of the seven dwarfs.",
@@ -83,7 +95,11 @@ export const playsCard = [
 	},
 	{
 		id: 8,
-		images: ["/projects/sample.png"],
+		images: [
+			"/plays/charlie/image1.jpg",
+			"/plays/charlie/image2.jpg",
+			"/plays/charlie/image3.jpg",
+		],
 		name: "“Charlie and the Chocolate Factory”",
 		description:
 			" The story features the vibrant adventures of young Charlie Bucket inside the chocolate factory of eccentric chocolatier Willy Wonka.",
@@ -114,14 +130,18 @@ export const playsCard = [
 		],
 		name: "“Aladdin”",
 		description:
-			"It is a story about a poor boy Aladdin who frees a genie from a lamp, he finds his wishes granted. He married the Princess and got the faith of the Sultan also. However, he soon finds that the evil magician has other plans for the lamp and the Princess…",
+			"It is a story about a poor boy Aladdin,a genie from a lamp, and an evil magician who has big plans for the lamp and the Princess.",
 		buttonColor: "bg-primary",
 		details:
 			"Both Aladdin and Jasmine teach us to be who we are. Be who you are meant to be true to who you are and live your life with honesty. The play was staged at “Oxbridge Academy” and “ Landau” School in 2023. Can be tailor-made to suit your needs.",
 	},
 	{
 		id: 11,
-		images: ["/projects/sample.png"],
+		images: [
+			"/plays/frozenpea/image1.png",
+			"/plays/frozenpea/image2.jpg",
+			"/plays/frozenpea/image3.jpg",
+		],
 		name: "“Princess and the Frozen Pea”",
 		description:
 			"The “Princess and the Frozen Pea”  is a comic fairy tale of a Swedish princess and Azerbaijani prince.",
@@ -145,7 +165,7 @@ export const playsCard = [
 	},
 	{
 		id: 13,
-		images: ["/projects/sample.png"],
+		images: ["/plays/stars/image1.jpeg"],
 		name: "“Young Stars”",
 		description:
 			"It all started back in 1997, when “ Youth Inclusive Theatre” was invented, created, and born…",

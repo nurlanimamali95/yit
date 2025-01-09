@@ -1,6 +1,6 @@
 export const donatePackages = [
 	{
-		title: "PACKAGE N1 (€3000 or equivalent in SEK, AZN, or LARI)",
+		title: "PACKAGE N1",
 		description: `
       “Classical Play”. Order your performance! Includes:
       - Casting for 9–12 actors

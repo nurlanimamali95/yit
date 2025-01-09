@@ -1,23 +1,18 @@
 "use client";
 
-import { useState } from "react";
-import { projectCard } from "@/app/2025projects/projectCardData";
-import Card from "@/components/card";
+import { gccData } from "@/app/gcc/gccCardData";
+import GccCard from "@/components/gccCard";
+import Image from "next/image";
 
 export default function Projects() {
-	const [showAll, setShowAll] = useState(false);
-
-	const visibleCards = showAll ? projectCard : projectCard.slice(0, 6);
-
 	return (
 		<div className="flex flex-col items-center">
-			<h2 className="mt-[6rem] text-3xl sm:text-2xl font-semibold">
+			<h2 className="mt-[8rem] text-3xl sm:text-2xl font-semibold">
 				Global Citizenship Children
 			</h2>
 
-			<div className="flex flex-col gap-5 my-16 text-lg leading-relaxed max-w-[70%]">
-				<p className="text-center">What is GCC?</p>
-
+			<div className="flex flex-col gap-5 my-16 text-lg  max-w-[70%] text-justify">
+				<p className="text-center font-semibold">What is GCC?</p>
 				<p>
 					Global Citizenship Children consists of multiple, still separate
 					modules. It is an online course comprising various modules, where we
@@ -36,16 +31,16 @@ export default function Projects() {
 					Education and Ecology also belong to the list of main topics of the
 					project. The webinar N5 embodies a rehearsal, where a student ( or
 					group of students, if they wish to work in a team) presents a
-					&quot;defense&quot; of a chosen country to the mentor and other participants.
-					The presentation covers topics of cultural heritage, education, and
-					ecology of the selected country. It usually lasts for 4-5 minutes,
-					including visual content, and a short video ( up to 1 minute). Lesson
-					5 is launched to develop the critical thinking of participants by
-					commenting, criticizing, and praising each other&apos;s presentations.
-					Lesson 5 aims to help students identify the areas they need to work
-					on. Together, we work on the informational part of the presentation,
-					visual content, and performance to prepare each other for the final
-					speech.
+					&quot;defense&quot; of a chosen country to the mentor and other
+					participants. The presentation covers topics of cultural heritage,
+					education, and ecology of the selected country. It usually lasts for
+					4-5 minutes, including visual content, and a short video ( up to 1
+					minute). Lesson 5 is launched to develop the critical thinking of
+					participants by commenting, criticizing, and praising each
+					other&apos;s presentations. Lesson 5 aims to help students identify
+					the areas they need to work on. Together, we work on the informational
+					part of the presentation, visual content, and performance to prepare
+					each other for the final speech.
 				</p>
 				<p>
 					The last 6th webinar is the DEFENSE DAY. Students are evaluated by
@@ -59,46 +54,36 @@ export default function Projects() {
 					translators ( high school students from International schools), and
 					guest speakers from all over the world.
 				</p>
+				<div className="flex flex-col md:flex-row justify-center items-center gap-16 mt-5">
+					<div>
+						<h3 className="font-semibold text-center my-4">
+							Why is this course special?
+						</h3>
+						<p>
+							A guest speaker from each country joins our lessons/webinars to
+							share the experience of living, studying, and working in the
+							country of their residence. * We cover topics of sustainable
+							development, ecology, and education. * We develop critical
+							thinking and social responsibility in students by
+							commenting/criticizing/ praising each other&apos;s work. * Because
+							every student does his research on the chosen country and thus
+							develops a global perspective.
+						</p>
+					</div>
+					<Image src={"/gcc/image7.png"} alt="gcc" width={500} height={500} />
+				</div>
 			</div>
 
-			<div className="">
-				<div className="p-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-					{visibleCards.map((card) => (
-						<Card
-							key={card.id}
-							images={card.images}
-							location={card.location}
-							description={card.description}
-							buttonColor={card.buttonColor}
-							details={card.details}
-						/>
-					))}
-				</div>
-
-				{!showAll && projectCard.length > 6 && (
-					<div className="flex justify-center my-8">
-						<button
-							onClick={() => setShowAll(true)}
-							className="bg-primary text-white rounded-full p-3 hover:bg-opacity-90 transition"
-							aria-label="Show More"
-						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								strokeWidth="2"
-								stroke="currentColor"
-								className="w-6 h-6"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									d="M19 9l-7 7-7-7"
-								/>
-							</svg>
-						</button>
-					</div>
-				)}
+			<div className="flex justify-center items-center flex-wrap gap-5 mx-[10rem] my-10">
+				{gccData.map((card) => (
+					<GccCard
+						key={card.id}
+						image={card.image}
+						name={card.name}
+						description={card.description}
+						details={card.details}
+					/>
+				))}
 			</div>
 		</div>
 	);
