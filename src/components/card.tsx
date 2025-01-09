@@ -48,7 +48,7 @@ export default function Card({
 	};
 
 	return (
-		<div className="max-w-sm bg-white bg-opacity-40 rounded-lg shadow-md p-4 relative">
+		<div className="max-w-sm bg-white bg-opacity-40 rounded-lg shadow-md p-4 relative flex flex-col">
 			<div className="relative">
 				<Carousel
 					responsive={responsive}
@@ -73,7 +73,7 @@ export default function Card({
 					))}
 				</Carousel>
 				{name && (
-					<span className="absolute top-0 bg-gray-200 px-2 py-1 text-lg w-full text-center shadow-sm ">
+					<span className="absolute top-0 bg-gray-200 px-2 py-1 text-lg w-full text-center shadow-sm">
 						{name}
 					</span>
 				)}
@@ -83,15 +83,17 @@ export default function Card({
 					</span>
 				)}
 			</div>
-			<div className="mt-4">
-				<p className="text-dark font-medium text-base">{description}</p>
+			<div className="mt-4 flex-grow">
+				<p className="text-dark font-medium text-base text-pretty">{description}</p>
 			</div>
-			<button
-				onClick={() => setIsModalOpen(true)}
-				className={`mt-4 px-4 py-2 rounded ${buttonColor} hover:opacity-90`}
-			>
-				See More
-			</button>
+			<div className="mt-4">
+				<button
+					onClick={() => setIsModalOpen(true)}
+					className={`px-4 py-2 rounded ${buttonColor} hover:opacity-90`}
+				>
+					See More
+				</button>
+			</div>
 
 			<AnimatePresence>
 				{isModalOpen && (

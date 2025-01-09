@@ -12,10 +12,15 @@ import { donatePackages } from "@/app/donate/donateData";
 export default function Donate() {
 	return (
 		<div className="flex flex-col items-center px-8 py-12">
-			<h2 className="text-3xl sm:text-2xl font-semibold mb-6">Support YIT</h2>
-			<p className="text-lg leading-relaxed max-w-[70%] text-center mb-10">
-				As a non-profit educational theatre, YIT relies on your support to
-				implement self-funded projects. Every contribution makes a difference.
+			<h2 className="text-3xl sm:text-2xl font-semibold mb-6 mt-[8rem]">
+				Support YIT
+			</h2>
+			<p className="text-lg text-justify max-w-[70%] mb-10">
+				As a non-profit educational theatre, YIT relies on corporate and
+				community support to implement self-funded projects, like the Cultural
+				Heritage Tour in Spring 2025 and 2026, publishing 3D Theatres books in
+				four languages in fall 2025, and English Through Drama board games in
+				2026.
 			</p>
 
 			<div

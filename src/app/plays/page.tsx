@@ -11,12 +11,12 @@ export default function Projects() {
 
 	return (
 		<div className="flex flex-col items-center">
-			<h2 className="mt-[6rem] text-3xl sm:text-2xl font-semibold">
+			<h2 className="mt-[8rem] text-3xl sm:text-2xl font-semibold">
 				Theatre Plays
 			</h2>
-			<p className="my-16 text-lg leading-relaxed max-w-[70%]">
+			<p className="my-16 text-lg  max-w-[70%] text-justify">
 				Together with a professional team of choreographers, musicians, and
-				stage managers, we staged over 60 plays, from ten-minute chamber
+				stage managers, we staged over 100 plays, from ten-minute chamber
 				performances to over 120-minute classical plays for 300+ audiences.
 				Sustainability, the anti-bullying movement, and “sharing is caring” are
 				among vital topics through plays and classes. The list of plays is

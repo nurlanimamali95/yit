@@ -8,7 +8,7 @@ export const etdCard = [
 		],
 		buttonColor: "bg-primary",
 		description:
-			"Learn English through Drama, Interests, Games, and Cooking - DIGAC",
+			"Learn English through Drama, Interests, Games, and Cooking - DIGAC.",
 		details:
 			"Five disciplines - Science, Social Studies, Drama, Arts & Crafts, and Global Citizenship are taught in a very relaxed home atmosphere, surrounded by pillows and favorite toys, with fruits and healthy snacks during the class. The more senses you involve during the educational process, the more information is absorbed unconsciously. ETD Pillow is an individual program both for neurotypical and children with special needs ( ADD, ADHD, mild autism traits, selective mutism, dyslexia, and Asperger syndrome).",
 	},

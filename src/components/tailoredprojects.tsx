@@ -25,10 +25,10 @@ export default function TailoredProjects() {
 					transition={{
 						background: { duration: 0.7, ease: "easeInOut" },
 					}}
-					className="p-6 md:p-8 rounded-xl shadow-lg h-[300px] md:h-[350px] lg:h-[400px] flex flex-col justify-between"
+					className="p-6 md:p-8 rounded-xl shadow-lg h-fit md:h-[350px] lg:h-[400px] flex flex-col justify-between"
 				>
 					<h3 className="text-xl font-bold mb-4">For schools:</h3>
-					<p className="leading-relaxed md:text-xl lg:text-2xl">
+					<p className="leading-relaxed md:text-xl lg:text-2xl text-justify">
 						All of my theater projects can be tailor-made to suit your needs! I
 						focus on every child’s interests and preferences to ensure that each
 						of them has an unforgettable performance art journey.
@@ -45,12 +45,12 @@ export default function TailoredProjects() {
 					transition={{
 						background: { duration: 0.7, ease: "easeInOut" },
 					}}
-					className="p-6 md:p-8 rounded-xl shadow-lg h-[300px] md:h-[350px] lg:h-[400px] flex flex-col justify-between"
+					className="p-6 md:p-8 rounded-xl shadow-lg h-fit md:h-[350px] lg:h-[400px] flex flex-col justify-between"
 				>
 					<h3 className="text-xl font-bold mb-4">
 						For individuals and families:
 					</h3>
-					<p className="md:text-xl lg:text-2xl leading-relaxed">
+					<p className="md:text-xl lg:text-2xl leading-relaxed text-justify">
 						If you are 6 to 16 years old, welcome to my theatre world where art,
 						drama, culture, technology, and nature converge to create
 						performances and inspire wonder, where the English language is

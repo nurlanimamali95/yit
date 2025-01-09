@@ -30,7 +30,7 @@ export default function About() {
 							className="w-full h-[450px] object-contain object-top"
 						/>
 					</div>
-					<p className="text-lg leading-relaxed">
+					<p className="text-lg leading-relaxed text-justify">
 						Theater cultivates <strong>empathy</strong> and understanding, it
 						exposes children to diverse perspectives and experiences.
 						Participating in theatre helps children build{" "}

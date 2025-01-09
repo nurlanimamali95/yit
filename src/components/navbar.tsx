@@ -8,14 +8,11 @@ import clsx from "clsx";
 
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
-	const pathname = usePathname(); // Get the current route
-
-	// Close the menu whenever the pathname changes
+	const pathname = usePathname();
 	useEffect(() => {
 		setIsOpen(false);
 	}, [pathname]);
 
-	// Define the navigation links
 	const navLinks = [
 		{ name: "2025 Projects", href: "/2025projects" },
 		{ name: "Theatre Plays", href: "/plays" },

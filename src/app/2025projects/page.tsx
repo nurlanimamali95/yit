@@ -11,17 +11,20 @@ export default function Projects() {
 
 	return (
 		<div className="flex flex-col items-center">
-			<h2 className="mt-[6rem] text-3xl sm:text-2xl font-semibold">
+			<h2 className="mt-[8rem] text-3xl sm:text-2xl font-semibold">
 				2025 Projects
 			</h2>
-			<p className="my-16 text-lg leading-relaxed max-w-[70%]">
+			<p className="mt-16  text-lg text-justify max-w-[70%]">
 				In 2025, we’re launching exciting theater projects that unite children
 				from different cultures to explore creativity, build life skills, and
 				embrace global citizenship. Through immersive performances, workshops,
 				and tours, we’ll inspire young minds to express themselves, collaborate,
 				and connect with others worldwide.
 			</p>
-
+			<p className="my-10 text-sm text-left w-[70%]">
+				*Open to any proposals for 2-4 month theater projects for 2026.
+				Honorarium is negotiable.
+			</p>
 			<div className="">
 				<div className="p-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 					{visibleCards.map((card) => (
@@ -35,10 +38,7 @@ export default function Projects() {
 						/>
 					))}
 				</div>
-				<p className="my-10 text-sm">
-					*Open to any proposals for 2-4 month theater projects for 2026.
-					Honorarium is negotiable.
-				</p>
+
 				{!showAll && projectCard.length > 6 && (
 					<div className="flex justify-center my-8">
 						<button
