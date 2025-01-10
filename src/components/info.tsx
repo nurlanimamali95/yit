@@ -14,21 +14,21 @@ export default function Info() {
 						magical Riga, the capital of Latvia to the city of the future, the
 						city of flame and winds, Baku, Azerbaijan. Initially, there was just
 						one group of children, but within three months, it grew to four
-						groups, each with over 25 students. As a result, I became the
-						artistic director of the dance theater “Young Stars.” In 2003, I
-						applied for a drama teacher position at Baku- Oxford School (
-						Cambridge curriculum) and worked there until 2018, along with my
-						theatre projects with international schools in Azerbaijan and
-						Georgia. In 2016, I launched Youth Inclusive Theatre ( English
-						Children Theatre), where neurotypical children got to learn to
-						support and communicate with children with special needs, whereas
-						the latter ( children with ADD, ADHD, OCD, selective mutism, mild
-						autism spectrum disorder, Asperger&apos;s Syndrome, mild dyslexia,
-						and social phobia) learn to work with patience, communication, and
-						learn to overcome fears through love for drama and acting. Acting is
-						not only about theatre, it’s about improving such important skills
-						as communication, collaboration, team building, critical thinking,
-						and leadership.
+						groups, each with over 25 students. As a result, I became the art
+						director of the dance theater “Young Stars.” In 2003, I applied for
+						a drama teacher position at Baku- Oxford School ( Cambridge
+						curriculum) and worked there until 2018, along with my theatre
+						projects with international schools in Azerbaijan and Georgia. In
+						2016, I launched Youth Inclusive Theatre ( English Children
+						Theatre), where neurotypical children got to learn to support and
+						communicate with children with special needs, whereas the latter (
+						children with ADD, ADHD, OCD, selective mutism, mild autism spectrum
+						disorder, Asperger&apos;s Syndrome, mild dyslexia, and social
+						phobia) learn to work with patience, communication, and learn to
+						overcome fears through love for drama and acting. Acting is not only
+						about theatre, it’s about improving such important skills as
+						communication, collaboration, team building, critical thinking, and
+						leadership.
 					</p>
 				</div>
 

@@ -29,9 +29,11 @@ export default function TailoredProjects() {
 				>
 					<h3 className="text-xl font-bold mb-4">For schools:</h3>
 					<p className="leading-relaxed md:text-xl lg:text-2xl text-justify">
-						All of my theater projects can be tailor-made to suit your needs! I
-						focus on every child’s interests and preferences to ensure that each
-						of them has an unforgettable performance art journey.
+						All children can have individual needs and experiences, requiring a
+						special approach to the learning process, which I always take into
+						account. All of my theater projects can be tailor-made to suit your
+						requirements! I focus on every child’s interests and preferences to
+						ensure that each child has an unforgettable performance art journey.
 					</p>
 				</motion.div>
 
