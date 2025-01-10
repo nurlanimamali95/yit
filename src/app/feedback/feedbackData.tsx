@@ -27,7 +27,7 @@ const feedbackData = [
 		id: 4,
 		text: "Benim nur yüzlü iyi kalpli sevgi dolu öğretmenim …Deye söyler benim Oglum İlaya hanımaGelecek gençlerin, gençler ise öğretmenin eseridir.İlaya hanim size teşekkür ederiz cok ama cok faydalı ve yuksek seviyede dersleriniz için.Genelde benim oglum derslerde rahat durmayan ve hareketli bir çocuk,ama sizin derslerinizi sabırsızla bekliyor.Bizim için zahmet çekerek ve zaman ayırarak her dersiniz için size teşekkür ederizSon derste  pizza tarifiyle tanıştılar çocuklar ve ilk defa için mukemmel ötesi bir pizza pişirdi)) Ankara'dan size sevgiler ve saygılar",
 		name: " Ömer Demircan.",
-		photo: "/feedbacks/user4.jpg",
+		photo: "/feedbacks/country/sweden.png",
 		country: "/feedbacks/country/sweden.png",
 		bgColor: "bg-white",
 	},
@@ -35,7 +35,7 @@ const feedbackData = [
 		id: 5,
 		text: "Ilaya , gribu jums pateikt liels paldies par tādu interesantu marafonu.Katru reizi gaidu stundu ar prieku.Daudz pozitīva no jums un man ļoti palīdz uzzināt daudz jaunu informāciju angļu valodā",
 		name: "Luīza Simanovska no Latvijas",
-		photo: "/feedbacks/user5.jpg",
+		photo: "/feedbacks/country/turkey.png",
 		country: "/feedbacks/country/turkey.png",
 		bgColor: "bg-secondary",
 	},
@@ -53,7 +53,7 @@ const feedbackData = [
 		name: " Sharafat Shirinli, Founder of Rebrain Academy",
 		photo: "/feedbacks/sherefet.jpg",
 		country: "/feedbacks/country/azerbaijan.png",
-		bgColor: "bg-white",
+		bgColor: "bg-accent",
 	},
 	{
 		id: 8,
@@ -69,7 +69,7 @@ const feedbackData = [
 		name: `Sevinc Gurashli, the founder of "TRIO" Aftercare Educational Platform`,
 		photo: "/feedbacks/country/azerbaijan.png",
 		country: "/feedbacks/country/azerbaijan.png",
-		bgColor: "bg-white",
+		bgColor: "bg-secondary",
 	},
 	{
 		id: 10,
@@ -77,7 +77,7 @@ const feedbackData = [
 		name: `Alex Shum`,
 		photo: "/feedbacks/alex.jpg",
 		country: "/feedbacks/country/sweden.png",
-		bgColor: "bg-white",
+		bgColor: "bg-primary",
 	},
 	{
 		id: 11,
@@ -85,7 +85,7 @@ const feedbackData = [
 		name: `Diana Bolgare ( Latvia, " Diana's Language Coaching" founder and teacher)`,
 		photo: "/feedbacks/diana.jfif",
 		country: "/feedbacks/country/latvia.png",
-		bgColor: "bg-white",
+		bgColor: "bg-accent",
 	},
 	{
 		id: 12,
@@ -101,7 +101,7 @@ const feedbackData = [
 		name: `Pavel Belorusski , Co-Founder of Maximum Education`,
 		photo: "/feedbacks/pavel.jfif",
 		country: "/feedbacks/country/russia.png",
-		bgColor: "bg-white",
+		bgColor: "bg-secondary",
 	},
 	{
 		id: 14,
@@ -109,15 +109,15 @@ const feedbackData = [
 		name: `Aziza, Stage Manager at YIT. YIT resident since 2016`,
 		photo: "/feedbacks/aziza.jpeg",
 		country: "/feedbacks/country/azerbaijan.png",
-		bgColor: "bg-white",
+		bgColor: "bg-primary",
 	},
 	{
 		id: 15,
 		text: `Hej, allihop som är intresserade i att lära sig engelska på en mer utvecklande nivå! Jag som Ilayas student tycker att hon är en jätte bra lärare och hennes lektioner är väldigt intressanta och de har olika motiver, som ETD, English Trought Drama och GCC, Global Citizenship Children, där man lär sig mer om andras länder och deras kulturer. Det finns också individuella lektioner som är min favorit! Ilaya är jättesnäll och det är jättetrevligt att prata med henne. Hon är jätteaktiv och gillar att prata om vad som helst. Temor som hon väljer är jätte intressanta och ni kommer säker att lära sig mer om annat! Jag tycker att hon är en jättebra lärare för att hon tar också ansvar på att lära barn som har ADHD eller dyslektiker. Hon är jätte provisioner i det hon gör. Hoppas ni kommer att gilla hennes lektioner. Tack för att ni läste! `,
 		name: `Sofiia, ETD and GCC assistant, YIT resident since 2022`,
-		photo: "/feedbacks/country/sweden.png",
+		photo: "/feedbacks/sofia.jpeg",
 		country: "/feedbacks/country/sweden.png",
-		bgColor: "bg-white",
+		bgColor: "bg-accent",
 	},
 ];
 

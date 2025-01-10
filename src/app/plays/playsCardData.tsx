@@ -1,7 +1,11 @@
 export const playsCard = [
 	{
 		id: 1,
-		images: ["/plays/shakespeare/image1.jpg"],
+		images: [
+			"/plays/shakespeare/image1.jpg",
+			"/plays/shakespeare/image2.jfif",
+			"/plays/shakespeare/image3.webp",
+		],
 		name: "“Shakespeare’s Festival”",
 		description:
 			"Exposure to Shakespeare introduces children to a significant part of literary and cultural heritage. We stage etudes, full-length plays, sonnets, and more!",

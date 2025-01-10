@@ -39,7 +39,7 @@ export default function Footer() {
 						<FaWhatsapp size={20} />
 					</a>
 					<a
-						href="https://www.facebook.com/ilaya.faiq"
+						href="https://www.facebook.com/EnglishChildrenTheatre2130/"
 						rel="noopener noreferrer"
 						aria-label="Facebook"
 						className="hover:text-gray-700 transition duration-300"

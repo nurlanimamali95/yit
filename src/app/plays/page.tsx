@@ -41,7 +41,7 @@ export default function Projects() {
 					<div className="flex justify-center my-8">
 						<button
 							onClick={() => setShowAll(true)}
-							className="bg-primary text-white rounded-full p-3 hover:bg-opacity-90 transition"
+							className="bg-primary text-dark rounded-full p-3 hover:bg-opacity-90 transition"
 							aria-label="Show More"
 						>
 							<svg

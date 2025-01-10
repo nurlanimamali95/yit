@@ -6,7 +6,7 @@ export default function About() {
 		<section className="mx-[3rem] md:mx-[5rem] my-[3rem] md:my-[15rem]">
 			<div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
 				<div className="flex flex-col justify-between h-full">
-					<h2 className="text-3xl sm:text-2xl font-semibold text-gray-900 text-center mb-[2rem] lg:mb-0">
+					<h2 className="text-3xl sm:text-2xl font-semibold text-gray-900 text-center my-[2rem] lg:mb-0">
 						Why theatre?
 					</h2>
 					<div className="w-full overflow-hidden rounded-lg">
