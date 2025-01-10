@@ -8,10 +8,11 @@ export default function Home() {
 	return (
 		<main>
 			<HeroCarousel />
-			<MovingLogo />
+
 			<About />
 			<Info />
 			<TailoredProjects />
+			<MovingLogo />
 		</main>
 	);
 }

@@ -161,7 +161,7 @@ export const projectCard = [
 		id: 8,
 		images: [
 			"/2025/europe/image1.jpg",
-			"/2025/europe/image2.jpg",
+			"/2025/europe/image2.jfif",
 			"/2025/europe/image3.jpg",
 		],
 		location: "Europe. 05.05.2025-25.05.2025",
@@ -174,9 +174,9 @@ export const projectCard = [
 	{
 		id: 9,
 		images: [
-			"/2025/breathe/image1.jpg",
-			"/2025/breathe/image2.png",
-			"/2025/breathe/image3.jpg",
+			"/2025/breathe/image3.png",
+			"/2025/breathe/image2.jpg",
+			"/2025/breathe/image1.avif",
 		],
 		location: "Riga, Latvia. 15-17.06.2025",
 		description:
@@ -233,7 +233,7 @@ export const projectCard = [
 			"/2025/chicago/image2.jpg",
 			"/2025/chicago/image3.jpg",
 		],
-		location: "Chicago, Illinois. 10.2025-12.2025",
+		location: "Chicago, Illinois. 12.2025",
 		description:
 			"Self-funded professional development course in theatre directing.  Devonshire playhouse. Skokie, Illinois.",
 		buttonColor: "bg-primary",
