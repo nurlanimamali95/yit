@@ -15,7 +15,6 @@ export default function Logo() {
 		"/logos/logo6.webp",
 		"/logos/logo7.jpg",
 		"/logos/logo8.jpg",
-		"/logos/logo9.jfif",
 		"/logos/logo10.png",
 		"/logos/logo11.png",
 		"/logos/logo12.png",
@@ -41,7 +40,7 @@ export default function Logo() {
 	return (
 		<main className="py-8 my-28 overflow-hidden">
 			<div ref={ref} className="flex w-full">
-				<motion.div className="flex gap-4" style={{ x: xTranslation }}>
+				<motion.div className="flex gap-10" style={{ x: xTranslation }}>
 					{[...images, ...images, ...images].map((item, idx) => (
 						<Card image={item} key={idx} />
 					))}

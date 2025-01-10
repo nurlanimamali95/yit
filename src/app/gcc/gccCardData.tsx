@@ -19,16 +19,6 @@ export const gccData = [
 	},
 	{
 		id: 3,
-		image: "/gcc/image3.jpg",
-		name: "USA vs Canada",
-		description:
-			"Module “USA vs Canada“ where we explore cultural heritage, eclological issues, and educational system of USA and Canada.",
-		buttonColor: "bg-gray-500",
-		details:
-			"Join us to compare and contrust these two different, yet similar coutries. Last Webinar is the DEFENCE. Children of 7-16 years old with good English language performance are invited. Online guest from USA and Canada  join our webinars. International guests, working in the field of Art, Education or Ecology  evaluate participants in the end. We work on teambuilding, time-management, research and performance. Every GCC is a  Module of six webinars, once a week, on Thursdays. 2:45 to 4 pm CET GCC  younger group ( 7-11 yo).4 pm to 5:30 to older  GCC older group  ( 12-16 yo). Join us within a year to become a Global Citizen!",
-	},
-	{
-		id: 4,
 		image: "/gcc/image5.jpg",
 		name: "China- Japan- India- Israel",
 		description:
@@ -37,12 +27,62 @@ export const gccData = [
 			"Global Citizenship Children consists of multiple, yet separate modules. It is an online course for children of 7-11 and 12-16 years old, consisting of various modules, where we explore places of interest, cuisine, the world of theaters, museums, music, and poetry of the selected countries. We launched the project in July 2020 and it proved to be very successful among children from different countries ( Azerbaijan, Sweden, Latvia, Georgia, and Turkey). Every module consists of six webinars per 90 minutes four of which cover the cultural heritage of four different countries. Education and Ecology also belong to the list of main topics of the project. The webinar N5 embodies a rehearsal, where a student prepares a presentation of a chosen country to the mentor and other participants.",
 	},
 	{
-		id: 5,
+		id: 4,
 		image: "/gcc/image6.png",
 		name: "Germany. Pros and Cons.",
 		description:
 			"Germany is a country with a rich cultural and historical heritage. It has a diverse set of customs. ",
 		details:
 			"During this module we dive into the culture, food, education and lifestyle of people of this Central European country. What id a Module about?There are 51 UNESCO Cultural Heritage Sites in Germany.Let's explore 5 of them! Timbered Houses of Germany, and one of the oldest ones Romer 2-4-6, that was constructed in 1289Educational system in Germany- a talk with a student. Germany has over 3000 different types of bread. Bread is another important symbol of Germany. There are over 3000 bread varieties in the country.Let’s talk about that, too. The world’s narrowest street measures only 31 centimeters wide, and it is in Germany! Green Germany- What do residents say about that? Q&AObsession with white aspargus within ten weeks in a year, currywurst museum, and cooking a traditional German food all together! Are there any disadvantages of living in Germany? True talks with Berlin residents These and much more will we be exploring in “Germany. Pros and Cons” journey! Join us today to not miss this opportunity tomorrow!",
+	},
+	{
+		id: 5,
+		image: "/gcc/image7.jpg",
+		name: "African World",
+		description:
+			"Did you know that 80% of gold is mined in Africa? Or that the population of Nigeria is 200 million people?",
+		buttonColor: "bg-gray-500",
+		details:
+			"Join us to compare and contrust these two different, yet similar coutries. Last Webinar is the DEFENCE. Children of 7-16 years old with good English language performance are invited. Online guest from USA and Canada  join our webinars. International guests, working in the field of Art, Education or Ecology  evaluate participants in the end. We work on teambuilding, time-management, research and performance. Every GCC is a  Module of six webinars, once a week, on Thursdays. 2:45 to 4 pm CET GCC  younger group ( 7-11 yo).4 pm to 5:30 to older  GCC older group  ( 12-16 yo). Join us within a year to become a Global Citizen!",
+	},
+	{
+		id: 6,
+		image: "/gcc/image8.jpg",
+		name: "Green Germany- What do residents say about that? Q&A",
+		description:
+			"Obsession with white aspargus within ten weeks in a year, currywurst museum, and cooking a traditional German food all together!",
+		buttonColor: "bg-gray-500",
+		details:
+			"Join us to compare and contrust these two different, yet similar coutries. Last Webinar is the DEFENCE. Children of 7-16 years old with good English language performance are invited. Online guest from USA and Canada  join our webinars. International guests, working in the field of Art, Education or Ecology  evaluate participants in the end. We work on teambuilding, time-management, research and performance. Every GCC is a  Module of six webinars, once a week, on Thursdays. 2:45 to 4 pm CET GCC  younger group ( 7-11 yo).4 pm to 5:30 to older  GCC older group  ( 12-16 yo). Join us within a year to become a Global Citizen!",
+	},
+	{
+		id: 7,
+		image: "/gcc/image1.jpg",
+		name: "Canada. Pros and Cons.",
+		description:
+			"A country with a longest coastline in the world and the coldest ever recorded temperature -63. The country with six time zones.",
+		buttonColor: "bg-gray-500",
+		details:
+			"Join us to compare and contrust these two different, yet similar coutries. Last Webinar is the DEFENCE. Children of 7-16 years old with good English language performance are invited. Online guest from USA and Canada  join our webinars. International guests, working in the field of Art, Education or Ecology  evaluate participants in the end. We work on teambuilding, time-management, research and performance. Every GCC is a  Module of six webinars, once a week, on Thursdays. 2:45 to 4 pm CET GCC  younger group ( 7-11 yo).4 pm to 5:30 to older  GCC older group  ( 12-16 yo). Join us within a year to become a Global Citizen!",
+	},
+	{
+		id: 8,
+		image: "/gcc/image51.jpg",
+		name: "Global Citizenship Children",
+		description:
+			"Every module consists of six webinars per 90 minutes four of which cover the cultural heritage of four different countries.",
+		buttonColor: "bg-gray-500",
+		details:
+			"Join us to compare and contrust these two different, yet similar coutries. Last Webinar is the DEFENCE. Children of 7-16 years old with good English language performance are invited. Online guest from USA and Canada  join our webinars. International guests, working in the field of Art, Education or Ecology  evaluate participants in the end. We work on teambuilding, time-management, research and performance. Every GCC is a  Module of six webinars, once a week, on Thursdays. 2:45 to 4 pm CET GCC  younger group ( 7-11 yo).4 pm to 5:30 to older  GCC older group  ( 12-16 yo). Join us within a year to become a Global Citizen!",
+	},
+	{
+		id: 9,
+		image: "/gcc/image3.jpg",
+		name: "USA vs Canada",
+		description:
+			"Module “USA vs Canada“ where we explore cultural heritage, eclological issues, and educational system of USA and Canada.",
+		buttonColor: "bg-gray-500",
+		details:
+			"Join us to compare and contrust these two different, yet similar coutries. Last Webinar is the DEFENCE. Children of 7-16 years old with good English language performance are invited. Online guest from USA and Canada  join our webinars. International guests, working in the field of Art, Education or Ecology  evaluate participants in the end. We work on teambuilding, time-management, research and performance. Every GCC is a  Module of six webinars, once a week, on Thursdays. 2:45 to 4 pm CET GCC  younger group ( 7-11 yo).4 pm to 5:30 to older  GCC older group  ( 12-16 yo). Join us within a year to become a Global Citizen!",
 	},
 ];

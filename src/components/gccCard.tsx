@@ -9,7 +9,7 @@ interface GccCardProps {
 	name?: string;
 	location?: string | undefined;
 	description: string;
-	details: string | React.JSX.Element;
+	details?: string | React.JSX.Element;
 }
 
 export default function GccCard({
@@ -53,14 +53,7 @@ export default function GccCard({
 			<div className="mt-6 flex-grow">
 				<p className="text-dark font-medium text-base">{description}</p>
 			</div>
-			<div className="mt-6">
-				<button
-					onClick={() => setIsModalOpen(true)}
-					className={`px-6 py-3 rounded bg-primary hover:opacity-90`}
-				>
-					See More
-				</button>
-			</div>
+			<div className="mt-6"></div>
 
 			<AnimatePresence>
 				{isModalOpen && (

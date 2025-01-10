@@ -84,7 +84,9 @@ export default function Card({
 				)}
 			</div>
 			<div className="mt-4 flex-grow">
-				<p className="text-dark font-medium text-base text-pretty">{description}</p>
+				<p className="text-dark font-medium text-base text-pretty">
+					{description}
+				</p>
 			</div>
 			<div className="mt-4">
 				<button
@@ -102,6 +104,7 @@ export default function Card({
 						initial="hidden"
 						animate="visible"
 						exit="exit"
+						onClick={() => setIsModalOpen(false)}
 						variants={{
 							hidden: { opacity: 0 },
 							visible: { opacity: 1 },
@@ -113,6 +116,7 @@ export default function Card({
 							initial="hidden"
 							animate="visible"
 							exit="exit"
+							onClick={(e) => e.stopPropagation()}
 							variants={modalVariants}
 							transition={{ duration: 0.3 }}
 						>
