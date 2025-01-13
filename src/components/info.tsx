@@ -40,7 +40,7 @@ export default function Info() {
 						alt="profile"
 						width={500}
 						height={600}
-						className="w-full h-[700px] object-cover rounded-lg"
+						className="w-full h-[700px] object-contain rounded-lg"
 					/>
 				</div>
 			</div>
