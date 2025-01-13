@@ -20,7 +20,10 @@ export default function Projects() {
 				performances to over 120-minute classical plays for 300+ audiences.
 				Sustainability, the anti-bullying movement, and “sharing is caring” are
 				among vital topics through plays and classes. The list of plays is
-				endless! The most memorable ones are listed below!!!
+				endless! The most memorable ones are listed below!!! We follow the
+				inclusion, where neurotypical children learn to support children with
+				special needs ( ADD, ADHD, OCD, HSP, mild autistic spectrum, selective
+				mutism, children with social phobia or learning difficulties).
 			</p>
 
 			<div className="">

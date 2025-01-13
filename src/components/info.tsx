@@ -5,7 +5,9 @@ export default function Info() {
 		<section className="mx-[3rem] md:mx-[5rem] my-[3rem] md:my-[15rem]">
 			<div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 				<div className="flex flex-col gap-[4rem]">
-					<h2 className="text-3xl text-center font-bold mb-6 md:mb-10">About me.</h2>
+					<h2 className="text-3xl text-center font-bold mb-6 md:mb-10">
+						About me.
+					</h2>
 					<p className="text-lg leading-relaxed text-justify">
 						Hello! My name is Ilaya Faiq. I am a theater director, specializing
 						in teaching drama and organizing school events, exhibitions, and
@@ -34,11 +36,11 @@ export default function Info() {
 
 				<div className="w-full overflow-hidden rounded-lg">
 					<Image
-						src="/profile.jpg"
+						src="/profile1.jpg"
 						alt="profile"
 						width={500}
 						height={600}
-						className="w-full h-[550px] object-cover rounded-lg"
+						className="w-full h-[700px] object-cover rounded-lg"
 					/>
 				</div>
 			</div>

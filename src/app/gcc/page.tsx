@@ -23,9 +23,9 @@ export default function Projects() {
 					Turkey).
 				</p>
 				<p>
-					Each module includes six offline lessons or webinars, each lasting 120
-					minutes (equivalent to two academic hours), with four of them focusing
-					on the cultural heritage of four different countries.
+					Each module includes six offline lessons or webinars, each lasting 90
+					minutes, with four of them focusing on the cultural heritage of four
+					different countries.
 				</p>
 				<p>
 					Education and Ecology also belong to the list of main topics of the
@@ -55,7 +55,10 @@ export default function Projects() {
 					guest speakers from all over the world.
 				</p>
 				<div className="flex flex-col md:flex-row justify-center items-center gap-16 mt-5">
-					<div>
+					<div className="flex-1 flex justify-center items-center">
+						<Image src={"/gcc/image7.png"} alt="gcc" width={500} height={500} />
+					</div>
+					<div className="flex-1">
 						<h3 className="font-semibold text-center my-4">
 							Why is this course special?
 						</h3>
@@ -65,12 +68,27 @@ export default function Projects() {
 							country of their residence. * We cover topics of sustainable
 							development, ecology, and education. * We develop critical
 							thinking and social responsibility in students by
-							commenting/criticizing/ praising each other&apos;s work. * Because
-							every student does his research on the chosen country and thus
-							develops a global perspective.
+							commenting/criticizing/ praising each other&apos;s work. * Every
+							student does his research on the chosen country and thus develops
+							a global perspective. Every GCC is a Module of six webinars, once
+							a week, on Thursdays. We run seven online modules within the year,
+							from September to June. Residents join us within a year to become
+							a Global Citizen.
 						</p>
 					</div>
-					<Image src={"/gcc/image7.png"} alt="gcc" width={500} height={500} />
+				</div>
+				<div className="w-full mt-2">
+					<ul>
+						<li>2:45 to 4 pm CET - GCC Younger group (7-11 yo).</li>
+						<li>4 pm to 5:30 CET - GCC Older group (12-16 yo)</li>
+						<li>Discounts:</li>
+						<p>
+							20% for families with 3+ children, single-parent families, and
+							children with special needs.
+						</p>
+						<p>30% for YIT Since1997.</p>
+						<p>Join us within a year to become a Global Citizen</p>
+					</ul>
 				</div>
 			</div>
 
@@ -81,7 +99,6 @@ export default function Projects() {
 						image={card.image}
 						name={card.name}
 						description={card.description}
-						details={card.details}
 					/>
 				))}
 			</div>

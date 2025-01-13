@@ -8,6 +8,7 @@ import {
 } from "@/components/accordion";
 import { FaWhatsapp } from "react-icons/fa";
 import { donatePackages } from "@/app/donate/donateData";
+import Image from "next/image";
 
 export default function Donate() {
 	return (
@@ -50,11 +51,22 @@ export default function Donate() {
 				</h3>
 				<div className="space-y-6">
 					<div>
-						<h4 className="text-lg font-medium">1. Pay via PayPal</h4>
-						<p>Click the button below to donate via PayPal:</p>
-						<button className="mt-2 bg-green-400 hover:bg-green-500 text-white font-medium py-2 px-4 rounded">
-							Donate via PayPal
-						</button>
+						<h4 className="text-lg font-medium">1. Donate via PayPal</h4>
+						<a
+							href="https://www.paypal.com/donate/?hosted_button_id=YT3GBAVX4KGFN"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="mt-2 bg-green-400 hover:bg-green-500 text-white font-medium py-2 px-4 rounded flex items-center gap-2 w-fit"
+						>
+							<Image
+								src="/paypal.png"
+								alt="PayPal Logo"
+								className="w-6 h-6"
+								width={6}
+								height={6}
+							/>
+							<span>PayPal</span>
+						</a>
 					</div>
 					<div>
 						<h4 className="text-lg font-medium">2. Bank Transfer</h4>

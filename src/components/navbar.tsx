@@ -62,7 +62,7 @@ export default function Navbar() {
 
 			<ul
 				className={clsx(
-					"absolute md:relative top-[50px] md:top-0 left-0 w-full md:w-auto bg-primary md:bg-transparent text-center md:text-left transition-all duration-300 font-medium",
+					"absolute md:relative top-[90px] md:top-0 left-0 w-full md:w-auto bg-primary md:bg-transparent text-center md:text-left transition-all duration-300 font-medium",
 					isOpen ? "block" : "hidden",
 					"md:flex md:flex-row md:items-center gap-6"
 				)}

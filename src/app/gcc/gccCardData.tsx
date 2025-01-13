@@ -67,7 +67,7 @@ export const gccData = [
 	},
 	{
 		id: 8,
-		image: "/gcc/image51.jpg",
+		image: "/gcc/image10.png",
 		name: "Global Citizenship Children",
 		description:
 			"Every module consists of six webinars per 90 minutes four of which cover the cultural heritage of four different countries.",
@@ -77,7 +77,7 @@ export const gccData = [
 	},
 	{
 		id: 9,
-		image: "/gcc/image3.jpg",
+		image: "/gcc/image9.png",
 		name: "USA vs Canada",
 		description:
 			"Module “USA vs Canada“ where we explore cultural heritage, eclological issues, and educational system of USA and Canada.",

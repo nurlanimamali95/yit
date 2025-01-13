@@ -31,7 +31,7 @@ export const etdCard = [
 		],
 		buttonColor: "bg-primary",
 		description:
-			"“Be creative” Local and International Tours, where experience backstage life, crafts workshops, theatres, museums, and International Schools.",
+			"“Be creative” Local and International Tours, where we experience backstage life, crafts workshops, theatres, museums, and International Schools.",
 		details:
 			"We are not just exploring the cultural heritage sites of the city you live in, we travel abroad and explore the world together!  “Be Creative” tours are aimed at improving creativity and cultural life awareness, supporting healthy living, as we walk for 3-6 hours every day, and eat healthy snacks, fruits, and vegetables. BC tours nurture friendship, children get to meet other children with similar interests in a relaxed setting and teach teamwork. BC tours provide mental stimulation in a fun, creative, entertaining, educational, and informative way! YIT is an inclusive platform with a safe environment for both neurotypicals and children with special needs.",
 	},
@@ -132,7 +132,8 @@ export const etdCard = [
 		description:
 			"“3D Theatres” Exhibition is a 10-hour project on modeling a theatre with the use of recycling paper, plastic and cardboard.",
 		buttonColor: "bg-primary",
-		details: "",
+		details:
+			"The annual 3D theatre exhibition is aimed at spreading awareness of theatre culture and etiquette. the event is usually dedicated to World Theatre Day - March 27th. Students make a 3D Theatre with the assistance of an art teacher and the 3D theatre project's coordinator and present the 3d theatre models at one of the city exhibition centers.",
 	},
 	{
 		id: 12,
@@ -141,9 +142,9 @@ export const etdCard = [
 			"/etd/33+/image2.jpeg",
 			"/etd/33+/image3.jpg",
 		],
-		description:
-			"33+ ideas to teach English Through Drama in PYP a five to ten-hour workshop for primary school teachers on using drama techniques in teaching the English language. Contact for more details.",
+		description: "A 1-2 days workshop for primary and middle school teachers",
 		buttonColor: "bg-primary",
-		details: "",
+		details:
+			"33+ ideas to teach English Through Drama in PYP is a five to ten-hour workshop for primary school teachers on using drama techniques in teaching the English language. Contact for more details.",
 	},
 ];

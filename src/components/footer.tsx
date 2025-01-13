@@ -11,7 +11,7 @@ export default function Footer() {
 		<footer className="bg-[#FEC760] py-8">
 			<div className="flex flex-col items-center justify-center">
 				<a
-					href="https://forms.gle/your-google-form-link"
+					href="https://docs.google.com/forms/d/e/1FAIpQLSfSBrcTpuzVqCT7AK45ujDqB1rZRci0XuTR7kHhgsjXZOo54g/viewform"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="mb-6 px-6 py-2 bg-black text-white text-sm font-medium rounded-full hover:bg-gray-800 transition duration-300"

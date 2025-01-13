@@ -11,14 +11,16 @@ export default function Etd() {
 
 	return (
 		<div className="flex flex-col items-center">
-			<h2 className="mt-[8rem] text-3xl sm:text-2xl font-semibold">
+		<h2 className="mt-[8rem] text-3xl sm:text-2xl font-semibold">
 				English Through Drama
 			</h2>
 			<p className="my-16 text-lg max-w-[70%] text-justify">
-				I staged over 100 plays, from ten minute performances to over 90 minutes
-				of classical plays for 350+ audiences. Sustainability, anti-bullying
-				movement, and “sharing is caring” are among vital topics through plays
-				and classes.
+				Experience is the best way to learn English, are you aware? This is what
+				we do- we learn English through theatre, interests, teaching, cooking,
+				exploring the world! You name it! The following programs for teaching
+				English have proven to be very successful. However, every student is
+				different, so every program is tailor-made, considering their interests,
+				abilities or needs.
 			</p>
 
 			<div>

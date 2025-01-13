@@ -93,11 +93,12 @@
 							{chunk.map((feedback) => (
 								<div
 									key={feedback.id}
-									className={`w-full sm:w-[400px] md:w-[40rem] h-[250px] p-6 rounded-lg shadow-lg ${feedback.bgColor} flex flex-col justify-between`}
+									className={`w-full sm:w-[450px] md:w-[40rem] h-[330px] p-6 rounded-lg shadow-lg ${feedback.bgColor} flex flex-col justify-between`}
 								>
-									<p className="text-base sm:text-lg font-medium leading-relaxed line-clamp-5">
+									<p className="text-base sm:text-lg font-medium leading-relaxed line-clamp-5 sm:line-clamp-none">
 										{feedback.text}
 									</p>
+
 									<div className="flex items-center mt-4">
 										<div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
 											<Image
