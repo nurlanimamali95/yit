@@ -19,43 +19,63 @@ export default function Footer() {
 					Enroll Now
 				</a>
 
-				<div className="flex space-x-6 mb-4 text-black">
-					<a
-						href="https://www.instagram.com/yitsince2016/"
-						rel="noopener noreferrer"
-						aria-label="Instagram"
-						className="hover:text-gray-700 transition duration-300"
-						target="_blank"
-					>
-						<FaInstagram size={20} />
-					</a>
-					<a
-						href="https://web.whatsapp.com/"
-						aria-label="WhatsApp"
-						rel="noopener noreferrer"
-						className="hover:text-gray-700 transition duration-300"
-						target="_blank"
-					>
-						<FaWhatsapp size={20} />
-					</a>
-					<a
-						href="https://www.facebook.com/EnglishChildrenTheatre2130/"
-						rel="noopener noreferrer"
-						aria-label="Facebook"
-						className="hover:text-gray-700 transition duration-300"
-						target="_blank"
-					>
-						<FaFacebookF size={20} />
-					</a>
-					<a
-						href="https://www.linkedin.com/in/ilaya-faiq-3172a8149/?trk=opento_sprofile_details"
-						rel="noopener noreferrer"
-						target="_blank"
-						aria-label="LinkedIn"
-						className="hover:text-gray-700 transition duration-300"
-					>
-						<FaLinkedinIn size={20} />
-					</a>
+				<div className="flex flex-col items-center space-y-4 mb-4 text-black">
+					<div className="flex space-x-6">
+						<a
+							href="https://www.linkedin.com/in/ilaya-faiq-3172a8149/?trk=opento_sprofile_details"
+							rel="noopener noreferrer"
+							target="_blank"
+							aria-label="LinkedIn"
+							className="hover:text-gray-700 transition duration-300"
+						>
+							<FaLinkedinIn size={20} />
+						</a>
+						<a
+							href="https://www.instagram.com/yitsince2016/"
+							rel="noopener noreferrer"
+							aria-label="Instagram"
+							className="hover:text-gray-700 transition duration-300"
+							target="_blank"
+						>
+							<FaInstagram size={20} />
+						</a>
+						<a
+							href="https://www.facebook.com/EnglishChildrenTheatre2130/"
+							rel="noopener noreferrer"
+							aria-label="Facebook"
+							className="hover:text-gray-700 transition duration-300"
+							target="_blank"
+						>
+							<FaFacebookF size={20} />
+						</a>
+					</div>
+
+					<div className="flex flex-col space-y-2">
+						<a
+							href="https://wa.me/37124857296"
+							rel="noopener noreferrer"
+							aria-label="WhatsApp Europe"
+							className="hover:text-gray-700 transition duration-300"
+							target="_blank"
+						>
+							<div className="flex items-center space-x-2">
+								<FaWhatsapp size={20} />
+								<span className="text-sm">WhatsApp EU</span>
+							</div>
+						</a>
+						<a
+							href="https://wa.me/994504608078"
+							rel="noopener noreferrer"
+							aria-label="WhatsApp Azerbaijan"
+							className="hover:text-gray-700 transition duration-300"
+							target="_blank"
+						>
+							<div className="flex items-center space-x-2">
+								<FaWhatsapp size={20} />
+								<span className="text-sm">WhatsApp AZ</span>
+							</div>
+						</a>
+					</div>
 				</div>
 
 				<div className="text-center text-sm">
@@ -70,7 +90,7 @@ export default function Footer() {
 								height={24}
 								unoptimized
 							/>
-						</span>{" "}
+						</span>
 						by CosmoCats.
 					</p>
 				</div>

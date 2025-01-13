@@ -58,7 +58,7 @@ const feedbackData = [
 	{
 		id: 8,
 		text: "For many years now, Mrs. Ilaya Faiq has been conducting unusual and therefore very unique classes via Global Citizenship Children platform, where younger and older children explore the e world and learn so much!  The approach is so different from what I have seen before.",
-		name: " Faiqs Safarovs, International journalist",
+		name: " Faiks Safarovs, International journalist",
 		photo: "/feedbacks/faik.jpg",
 		country: "/feedbacks/country/latvia.png",
 		bgColor: "bg-white",

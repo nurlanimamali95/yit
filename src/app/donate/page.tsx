@@ -8,7 +8,7 @@ import {
 } from "@/components/accordion";
 import { FaWhatsapp } from "react-icons/fa";
 import { donatePackages } from "@/app/donate/donateData";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Donate() {
 	return (
@@ -50,7 +50,7 @@ export default function Donate() {
 					How to Donate
 				</h3>
 				<div className="space-y-6">
-					<div>
+					{/* <div>
 						<h4 className="text-lg font-medium">1. Donate via PayPal</h4>
 						<a
 							href="https://www.paypal.com/donate/?hosted_button_id=YT3GBAVX4KGFN"
@@ -67,23 +67,42 @@ export default function Donate() {
 							/>
 							<span>PayPal</span>
 						</a>
-					</div>
+					</div> */}
 					<div>
-						<h4 className="text-lg font-medium">2. Bank Transfer</h4>
+						<h4 className="text-lg font-medium">Bank Transfer</h4>
 						<p>
 							Use the following details to donate directly via bank transfer:
 						</p>
-						<ul className="list-disc ml-6">
-							<li>
-								<strong>Bank Name:</strong> [Your Bank Name]
-							</li>
-							<li>
-								<strong>IBAN:</strong> [Your IBAN]
-							</li>
-							<li>
-								<strong>SWIFT/BIC:</strong> [Your SWIFT Code]
-							</li>
-						</ul>
+						<div className="space-y-4">
+							<div>
+								<p className="font-medium">Account 1(Euro):</p>
+								<ul className="list-disc ml-6">
+									<li>
+										<strong>Bank Name:</strong>Bank Respublika OJSC
+									</li>
+									<li>
+										<strong>IBAN:</strong>AZ52BRES41050EU0101876308006
+									</li>
+									<li>
+										<strong>SWIFT/BIC:</strong> BRESAZ22
+									</li>
+								</ul>
+							</div>
+							<div>
+								<p className="font-medium">Account 2 (AZN):</p>
+								<ul className="list-disc ml-6">
+									<li>
+										<strong>Bank Name:</strong>Bank Respublika OJSC
+									</li>
+									<li>
+										<strong>IBAN:</strong> AZ77BRES00382194401078042501
+									</li>
+									<li>
+										<strong>SWIFT/BIC:</strong> BRESAZ22
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div className="mt-4 flex items-center gap-2">
