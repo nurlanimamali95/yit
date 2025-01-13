@@ -103,10 +103,13 @@ export default function Feedback() {
 											objectFit="cover"
 										/>
 									</div>
-									<span className="text-sm sm:text-base font-semibold">
+									<span className="text-sm sm:text-base font-semibold w-full sm:w-[300px] lg:w-[400px] truncate sm:whitespace-normal whitespace-nowrap">
 										{feedback.name}
 									</span>
-									<div className="relative w-6 h-4 overflow-hidden mx-4">
+									<div
+										className="relative w-6 h-4 mx-4"
+										style={{ flexShrink: 0 }}
+									>
 										<Image
 											src={feedback.country}
 											alt={`${feedback.name}'s flag`}

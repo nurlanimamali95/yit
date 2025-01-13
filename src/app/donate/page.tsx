@@ -76,7 +76,7 @@ export default function Donate() {
 						<div className="space-y-4">
 							<div>
 								<p className="font-medium">Account 1(Euro):</p>
-								<ul className="list-disc ml-6">
+								<ul className="list-disc ml-6 break-words">
 									<li>
 										<strong>Bank Name:</strong>Bank Respublika OJSC
 									</li>
@@ -90,7 +90,7 @@ export default function Donate() {
 							</div>
 							<div>
 								<p className="font-medium">Account 2 (AZN):</p>
-								<ul className="list-disc ml-6">
+								<ul className="list-disc ml-6 break-words">
 									<li>
 										<strong>Bank Name:</strong>Bank Respublika OJSC
 									</li>
@@ -108,7 +108,7 @@ export default function Donate() {
 				<div className="mt-4 flex items-center gap-2">
 					<p>If you face any issues, text us on WhatsApp:</p>
 					<a
-						href="https://wa.me/[+31627623727]"
+						href="https://wa.me/994504608078"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="flex items-center gap-2 text-green-500 hover:underline"

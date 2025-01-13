@@ -32,10 +32,10 @@ export default function HeroCarousel() {
 					<div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white px-10">
 						{" "}
 						<div className="max-w-3xl text-center mb-[26rem]">
-							<h1 className="text-3xl md:text-5xl font-bold mb-2">
+							<h1 className="text-3xl md:text-5xl font-bold mt-[5rem] md:mb-2 md:mt-0">
 								Learn English Through Drama
 							</h1>
-							<p className="text-lg md:text-xl font-medium mt-5">
+							<p className="text-lg md:text-xl font-medium mt-5 text-nowrap">
 								<span className="px-2 py-1 bg-black text-white rounded-lg">
 									<span className="text-blue-400 font-semibold">Explore</span>,{" "}
 									<span className="text-green-400 font-semibold">Create</span>,{" "}

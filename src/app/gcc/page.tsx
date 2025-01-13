@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Projects() {
 	return (
 		<div className="flex flex-col items-center">
-			<h2 className="mt-[8rem] text-3xl sm:text-2xl font-semibold">
+			<h2 className="mt-[8rem] text-center text-3xl sm:text-2xl font-semibold">
 				Global Citizenship Children
 			</h2>
 
@@ -92,7 +92,7 @@ export default function Projects() {
 				</div>
 			</div>
 
-			<div className="flex justify-center items-center flex-wrap gap-5 mx-[10rem] my-10">
+			<div className="flex justify-center items-center flex-wrap gap-5 md:mx-[10rem] my-10">
 				{gccData.map((card) => (
 					<GccCard
 						key={card.id}
