@@ -90,7 +90,7 @@ export const playsCard = [
 			"/plays/snowwhite/image2.jpg",
 			"/plays/snowwhite/image3.webp",
 		],
-		name: "“The Snowwhite and the Little Dwarfs”",
+		name: "“The Snowwhite and the Seven Dwarfs”",
 		description:
 			" Snow White, is a sweet and innocent young princess who is forced to hide from her stepmother in the cottage of the seven dwarfs.",
 		buttonColor: "bg-primary",
