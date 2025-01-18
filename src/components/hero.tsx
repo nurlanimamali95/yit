@@ -62,9 +62,9 @@ export default function HeroCarousel() {
 							</h1>
 							<p className="text-lg md:text-xl font-medium mt-5">
 								<span className="px-2 py-1 bg-black text-white rounded-lg">
-									<span className="text-pink-400 font-semibold">Empower</span>,
+									<span className="text-pink-400 font-semibold">Empower</span>,{" "}
 									<span className="text-purple-400 font-semibold">Express</span>
-									,
+									,{" "}
 									<span className="text-teal-400 font-semibold">Innovate!</span>
 								</span>
 							</p>
@@ -86,8 +86,8 @@ export default function HeroCarousel() {
 							</h1>
 							<p className="text-lg md:text-xl font-medium mt-5">
 								<span className="px-2 py-1 bg-black text-white rounded-lg">
-									<span className="text-orange-400 font-semibold">Inspire</span>
-									, <span className="text-red-400 font-semibold">Nurture</span>,{" "}
+									<span className="text-orange-400 font-semibold">Inspire</span>,{" "}
+									<span className="text-red-400 font-semibold">Nurture</span>,{" "}
 									<span className="text-indigo-400 font-semibold">Thrive!</span>
 								</span>
 							</p>
