@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌈 Youth Inclusive Theatre (YIT)
 
-First, run the development server:
+A modern and accessible website created for **Youth Inclusive Theatre**, a non-profit organization that empowers young people through inclusive and creative performances.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎭 About the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This website was designed and developed to help YIT present their mission, upcoming shows, and projects in an engaging and professional way.  
+I worked closely with **the founder and director of YIT**, understanding her vision and translating it into a digital experience that reflects the inclusive and artistic spirit of the organization.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The goal was to make a website that feels creative yet clear — combining a dynamic design with accessible, easy-to-navigate content.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧑‍💻 My Role
 
-## Learn More
+- Collaborated directly with the client to define structure, tone, and visual identity  
+- Designed responsive layouts and interactions for both desktop and mobile  
+- Built a performant, SEO-friendly Next.js website with animations and visual flow  
+- Implemented accessible UI components and optimized images and assets
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Built with a modern front-end stack focused on performance and smooth user experience:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js 15** – App Router, optimized images, fast builds  
+- **React 19** – component-based UI  
+- **Tailwind CSS** – utility-first styling and responsive layouts  
+- **Framer Motion** – smooth, expressive animations  
+- **Radix UI** – accessible and reusable UI primitives  
+- **React Icons** – iconography  
+- **TypeScript** – type safety and maintainability  
 
-## Deploy on Vercel
+## ✨ Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Responsive design for all devices  
+- Animated sections and transitions  
+- Modular components for easy updates  
+- Carousel for team and event highlights  
+- Accessible navigation structure  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌍 Live Demo
+
+👉 [View Website](https://yitsince1997.com/)
+
+### 🤝 About the Collaboration
+
+Working with the YIT founder was a very positive and human experience. We discussed her goals, values, and what “inclusivity” truly means for her organization — then turned that into a living website.
